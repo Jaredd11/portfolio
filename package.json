@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "dev-server": "node init && npm run dev --prefix server",
+    "dev-client": "node init && npm run dev --prefix client"
+  }
+}
